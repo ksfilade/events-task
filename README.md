@@ -3,6 +3,7 @@
 ## Getting Started
 
 To Start the project:
+create .env file and insert the data i sent you on email
 
 ```bash
 npm install
