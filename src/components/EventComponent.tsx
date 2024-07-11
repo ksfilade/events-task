@@ -10,9 +10,9 @@ import { useAuth } from "@/lib/AuthContext";
 import { Event } from "@/types/types";
 
 interface EventDto {
-  event: Event,
-  index: number,
-  onDelete: Function
+  event: Event;
+  index: number;
+  onDelete: Function;
   onAttend: Function
 }
 

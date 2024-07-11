@@ -1,10 +1,9 @@
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import firebase from "firebase/compat/app";
-import { getFirestore } from "firebase/firestore/lite";
-
+import { initializeApp } from "firebase/app"
+import { getAuth } from "firebase/auth"
+import firebase from "firebase/compat/app"
+import { getFirestore } from "firebase/firestore/lite"
 const firebaseConfig = {
-    apiKey: "AIzaSyBUl67zBWVLKXORNO-pWl3zXSnk5Eg2pLM",
+    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
     authDomain: "events-app-caa78.firebaseapp.com",
     projectId: "events-app-caa78",
     storageBucket: "events-app-caa78.appspot.com",

@@ -4,8 +4,8 @@ import { Event } from "@/types/types";
 import { useEffect, useState } from "react";
 
 interface EventFormDto{
-    onSubmit: Function
-    event?: Event | null
+    onSubmit: Function;
+    event?: Event | null;
     edit?:boolean
 }
 export default function EventFormComponent({ onSubmit, event, edit }: EventFormDto) {

@@ -42,7 +42,7 @@ export async function PUT(request: Request) {
     try {
         let token = request.headers.get('authorization')
         let isVerified = await verifyToken(token ?? '')
-
+        
         if (!isVerified) {
             return Response.json({ error: 'not authorized' }, { status: 401 })
         }
